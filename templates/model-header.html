@@ -1,0 +1,32 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'superimob/css/header.css' %}">
+
+<header>
+    <div id="headerId">
+        <div id="lateral">
+            <input type="checkbox" id="checmenu">
+            <label for="checmenu">
+                <img src="{% static 'superimob/img/menu1.png' %}" alt="Menu">
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Imóveis</a></li>
+                    <li><a href="#">Contratos</a></li>
+                    <li><a href="#">Contas</a></li>
+                    <li><a href="#">Configuração</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="logo">SuperImob v1.0</div>
+        <div id="links">
+            <ul>
+                <li><a href="#">Status Contratos</a></li>
+                <li><a href="#">Próximos Vencimentos</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
